@@ -1,0 +1,37 @@
+@font-face { 
+    font-family: 'dlovan'; 
+    font-style : normal;  
+    font-weight: 400;
+    src:url('../fonts/ionicons.ttf') format('truetype'); 
+}
+
+
+
+.df-icon{
+    font-family: 'dlovan';  
+    color:#fff;
+    font-size: 50px;
+}
+.df-icon.test::before{
+    content: '\f020';
+
+    text-align: center;
+}
+.icon{
+    font-family: 'Ionicons';  
+    color:#B500C2;
+    font-size: 40px;
+    margin:1px;
+}
+.icon.menu::before{
+    content: '\f13f';
+    width: 55px;
+    height:55px;
+    top:-5px;
+}
+.icon.leaf::before{
+    content: '\f1fd';
+    width: 55px;
+    height:55px;
+    top:-5px;
+}
