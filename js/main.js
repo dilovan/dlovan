@@ -3,9 +3,9 @@
 
 	$(window).on('load', function() {
 
-	    $(".preloader").fadeOut(2500, function() {
-	        $(".preloader-left").addClass("slide-left");
-	    });
+	    // $(".preloader").fadeOut(2500, function() {
+	    //     $(".preloader-left").addClass("slide-left");
+	    // });
 
 	    $('#lionhero').owlCarousel({
 	        animateOut: 'fadeOut',
